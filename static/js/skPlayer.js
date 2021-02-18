@@ -131,7 +131,6 @@ var skPlayer = /*#__PURE__*/function () {
             axios.get(baseUrl + '?type=collect&media=' + this.media + "&id=" + this.music)
             .then(function (response) {
                 _this.music = response.data;
-                    console.log('歌单拉取成功！');
                     _this.root.innerHTML = _this.template();
 
                     _this.init();
@@ -238,13 +237,11 @@ var skPlayer = /*#__PURE__*/function () {
                 Util.ajax({
                     url: baseUrl + "?type=song&media=" + this.media + "&id=" + this.music[0].song_id,
                     beforeSend: function beforeSend() {
-                        console.log('SKPlayer正在努力的拉取歌曲 ...');
                     },
                     success: function success(data) {
                         var url = JSON.parse(data).url;
 
                         if (url !== null) {
-                            console.log('歌曲拉取成功！');
                             _this2.audio.src = url;
                         } else {
                             console.log('歌曲拉取失败！ 资源无效！');
@@ -421,13 +418,11 @@ var skPlayer = /*#__PURE__*/function () {
                 Util.ajax({
                     url: baseUrl + "?type=song&media=" + this.media + "&id=" + this.music[index].song_id,
                     beforeSend: function beforeSend() {
-                        console.log('SKPlayer正在努力的拉取歌曲 ...');
                     },
                     success: function success(data) {
                         var url = JSON.parse(data).url;
 
                         if (url !== null) {
-                            console.log('歌曲拉取成功！');
                             _this4.audio.src = url;
                             _this4.play(); //暂存问题，移动端兼容性
 
