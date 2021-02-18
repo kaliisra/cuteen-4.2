@@ -514,10 +514,8 @@ const Cuteen = {
             const DarkMode = Cookies.get('DarkMode');
             if (DarkMode === '0') {
                 Cookies.set('DarkMode', 1, {expires: 3});
-                console.log('夜间模式关闭');
             } else {
                 Cookies.set('DarkMode', 0, {expires: 3});
-                console.log('夜间模式开启')
             }
             setTimeout(function () {
                 if (sky.style.opacity !== 0) {
