@@ -660,159 +660,416 @@
         ]
     },
     "贴图": {
-	"type": "image",
-	"container":[
-		
-		{
-			"icon":"emoji/bqtt/101.jpg",
-			"data":"::(101)",
-			"text":"101"
-		},
-		{
-			"icon":"emoji/bqtt/102.jpg",
-			"data":"::(102)",
-			"text":"102"
-		},
-		{
-			"icon":"emoji/bqtt/103.jpg",
-			"data":"::(103)",
-			"text":"103"
-		},
-		{
-			"icon":"emoji/bqtt/104.jpg",
-			"data":"::(104)",
-			"text":"104"
-		},
-		{
-			"icon":"emoji/bqtt/105.jpg",
-			"data":"::(105)",
-			"text":"105"
-		},
-		{
-			"icon":"emoji/bqtt/106.jpg",
-			"data":"::(106)",
-			"text":"106"
-		},
-		{
-			"icon":"emoji/bqtt/107.jpg",
-			"data":"::(107)",
-			"text":"107"
-		},
-		{
-			"icon":"emoji/bqtt/108.jpg",
-			"data":"::(108)",
-			"text":"108"
-		},
-		{
-			"icon":"emoji/bqtt/109.jpg",
-			"data":"::(109)",
-			"text":"109"
-		},
-		{
-			"icon":"emoji/bqtt/110.jpg",
-			"data":"::(110)",
-			"text":"110"
-		},
-		{
-			"icon":"emoji/bqtt/201.jpg",
-			"data":"::(201)",
-			"text":"201"
-		},
-		{
-			"icon":"emoji/bqtt/202.jpg",
-			"data":"::(202)",
-			"text":"202"
-		},
-		{
-			"icon":"emoji/bqtt/203.jpg",
-			"data":"::(203)",
-			"text":"203"
-		},
-		{
-			"icon":"emoji/bqtt/204.jpg",
-			"data":"::(204)",
-			"text":"204"
-		},
-		{
-			"icon":"emoji/bqtt/205.jpg",
-			"data":"::(205)",
-			"text":"205"
-		},
-		{
-			"icon":"emoji/bqtt/206.jpg",
-			"data":"::(206)",
-			"text":"206"
-		},
-		{
-			"icon":"emoji/bqtt/207.jpg",
-			"data":"::(207)",
-			"text":"207"
-		},
-		{
-			"icon":"emoji/bqtt/208.jpg",
-			"data":"::(208)",
-			"text":"208"
-		},
-		{
-			"icon":"emoji/bqtt/209.jpg",
-			"data":"::(209)",
-			"text":"209"
-		},
-		{
-			"icon":"emoji/bqtt/210.jpg",
-			"data":"::(210)",
-			"text":"210"
-		},
-		{
-			"icon":"emoji/bqtt/401.jpg",
-			"data":"::(401)",
-			"text":"401"
-		},
-		{
-			"icon":"emoji/bqtt/402.jpg",
-			"data":"::(402)",
-			"text":"402"
-		},
-		{
-			"icon":"emoji/bqtt/403.jpg",
-			"data":"::(403)",
-			"text":"403"
-		},
-		{
-			"icon":"emoji/bqtt/404.jpg",
-			"data":"::(404)",
-			"text":"404"
-		},
-		{
-			"icon":"emoji/bqtt/405.jpg",
-			"data":"::(405)",
-			"text":"405"
-		},
-		{
-			"icon":"emoji/bqtt/406.jpg",
-			"data":"::(406)",
-			"text":"406"
-		},
-		{
-			"icon":"emoji/bqtt/407.jpg",
-			"data":"::(407)",
-			"text":"407"
-		},
-		{
-			"icon":"emoji/bqtt/408.jpg",
-			"data":"::(408)",
-			"text":"408"
-		},
-		{
-			"icon":"emoji/bqtt/409.jpg",
-			"data":"::(409)",
-			"text":"409"
-		},
-		{
-			"icon":"emoji/bqtt/410.jpg",
-			"data":"::(410)",
-			"text":"410"
-		}
-	]
+		"type": "image",
+		"container":[
+	 
+			{
+				"icon":"emoji/bqtt/101.jpg",
+				"data":"::(101)",
+				"text":"101"
+			},
+			{
+				"icon":"emoji/bqtt/102.jpg",
+				"data":"::(102)",
+				"text":"102"
+			},
+			{
+				"icon":"emoji/bqtt/103.jpg",
+				"data":"::(103)",
+				"text":"103"
+			},
+			{
+				"icon":"emoji/bqtt/104.jpg",
+				"data":"::(104)",
+				"text":"104"
+			},
+			{
+				"icon":"emoji/bqtt/105.jpg",
+				"data":"::(105)",
+				"text":"105"
+			},
+			{
+				"icon":"emoji/bqtt/106.jpg",
+				"data":"::(106)",
+				"text":"106"
+			},
+			{
+				"icon":"emoji/bqtt/107.jpg",
+				"data":"::(107)",
+				"text":"107"
+			},
+			{
+				"icon":"emoji/bqtt/108.jpg",
+				"data":"::(108)",
+				"text":"108"
+			},
+			{
+				"icon":"emoji/bqtt/109.jpg",
+				"data":"::(109)",
+				"text":"109"
+			},
+			{
+				"icon":"emoji/bqtt/110.jpg",
+				"data":"::(110)",
+				"text":"110"
+			},
+			{
+				"icon":"emoji/bqtt/201.jpg",
+				"data":"::(201)",
+				"text":"201"
+			},
+			{
+				"icon":"emoji/bqtt/202.jpg",
+				"data":"::(202)",
+				"text":"202"
+			},
+			{
+				"icon":"emoji/bqtt/203.jpg",
+				"data":"::(203)",
+				"text":"203"
+			},
+			{
+				"icon":"emoji/bqtt/204.jpg",
+				"data":"::(204)",
+				"text":"204"
+			},
+			{
+				"icon":"emoji/bqtt/205.jpg",
+				"data":"::(205)",
+				"text":"205"
+			},
+			{
+				"icon":"emoji/bqtt/206.jpg",
+				"data":"::(206)",
+				"text":"206"
+			},
+			{
+				"icon":"emoji/bqtt/207.jpg",
+				"data":"::(207)",
+				"text":"207"
+			},
+			{
+				"icon":"emoji/bqtt/208.jpg",
+				"data":"::(208)",
+				"text":"208"
+			},
+			{
+				"icon":"emoji/bqtt/209.jpg",
+				"data":"::(209)",
+				"text":"209"
+			},
+			{
+				"icon":"emoji/bqtt/210.jpg",
+				"data":"::(210)",
+				"text":"210"
+			},
+			{
+				"icon":"emoji/bqtt/401.jpg",
+				"data":"::(401)",
+				"text":"401"
+			},
+			{
+				"icon":"emoji/bqtt/402.jpg",
+				"data":"::(402)",
+				"text":"402"
+			},
+			{
+				"icon":"emoji/bqtt/403.jpg",
+				"data":"::(403)",
+				"text":"403"
+			},
+			{
+				"icon":"emoji/bqtt/404.jpg",
+				"data":"::(404)",
+				"text":"404"
+			},
+			{
+				"icon":"emoji/bqtt/405.jpg",
+				"data":"::(405)",
+				"text":"405"
+			},
+			{
+				"icon":"emoji/bqtt/406.jpg",
+				"data":"::(406)",
+				"text":"406"
+			},
+			{
+				"icon":"emoji/bqtt/407.jpg",
+				"data":"::(407)",
+				"text":"407"
+			},
+			{
+				"icon":"emoji/bqtt/408.jpg",
+				"data":"::(408)",
+				"text":"408"
+			},
+			{
+				"icon":"emoji/bqtt/409.jpg",
+				"data":"::(409)",
+				"text":"409"
+			},
+			{
+				"icon":"emoji/bqtt/410.jpg",
+				"data":"::(410)",
+				"text":"410"
+			}
+		]
+    },
+	"哔哩": {
+		"type": "image",
+		"container":[
+			{
+				"icon": "emoji/BZ/22_chijing.png",
+				"data": "::(chijing)",
+				"text": "chijing"
+			},
+			{
+				"icon": "emoji/BZ/22_daku.png",
+				"data": "::(daku)",
+				"text": "daku"
+			},
+			{
+				"icon": "emoji/BZ/22_daxiao.png",
+				"data": "::(daxiao)",
+				"text": "daxiao"
+			},
+			{
+				"icon": "emoji/BZ/22_nu.png",
+				"data": "::(nu)",
+				"text": "nu"
+			},
+			{
+				"icon": "emoji/BZ/22_weiqu.png",
+				"data": "::(weiqu)",
+				"text": "weiqu"
+			},
+			{
+				"icon": "emoji/BZ/22_yiwen.png",
+				"data": "::(yiwen)",
+				"text": "yiwen"
+			},
+			{
+				"icon": "emoji/BZ/22_yumen.png",
+				"data": "::(yumen)",
+				"text": "yumen"
+			},
+			{
+				"icon": "emoji/BZ/33_han.png",
+				"data": "::(han)",
+				"text": "han"
+			},
+			{
+				"icon": "emoji/BZ/33_hecha.png",
+				"data": "::(hecha)",
+				"text": "hecha"
+			},
+			{
+				"icon": "emoji/BZ/33_maimeng.png",
+				"data": "::(maimeng)",
+				"text": "maimeng"
+			},
+			{
+				"icon": "emoji/BZ/33_no1.png",
+				"data": "::(no1)",
+				"text": "no1"
+			},
+			{
+				"icon": "emoji/BZ/33_tuhun.png",
+				"data": "::(tuhun)",
+				"text": "tuhun"
+			},
+			{
+				"icon": "emoji/BZ/33_wuyan.png",
+				"data": "::(wuyan)",
+				"text": "wuyan"
+			},
+			{
+				"icon": "emoji/BZ/33_yeah.png",
+				"data": "::(yeah)",
+				"text": "yeah"
+			},
+			{
+				"icon": "emoji/BZ/33_yiwen.png",
+				"data": "::(yiwen)",
+				"text": "yiwen"
+			},
+			{
+				"icon": "emoji/BZ/ds_chaping.png",
+				"data": "::(chaping)",
+				"text": "chaping"
+			},
+			{
+				"icon": "emoji/BZ/ds_chijing.png",
+				"data": "::(chijing)",
+				"text": "chijing"
+			},
+			{
+				"icon": "emoji/BZ/ds_duzui.png",
+				"data": "::(duzui)",
+				"text": "duzui"
+			},
+			{
+				"icon": "emoji/BZ/ds_fachou.png",
+				"data": "::(fachou)",
+				"text": "fachou"
+			},
+			{
+				"icon": "emoji/BZ/ds_haixiu.png",
+				"data": "::(haixiu)",
+				"text": "haixiu"
+			},
+			{
+				"icon": "emoji/BZ/ds_han.png",
+				"data": "::(han)",
+				"text": "han"
+			},
+			{
+				"icon": "emoji/BZ/ds_haonua.png",
+				"data": "::(haonua)",
+				"text": "haonua"
+			},
+			{
+				"icon": "emoji/BZ/ds_kunhuo.png",
+				"data": "::(kunhuo)",
+				"text": "kunhuo"
+			},
+			{
+				"icon": "emoji/BZ/ds_kuqi.png",
+				"data": "::(kuqi)",
+				"text": "kuqi"
+			},
+			{
+				"icon": "emoji/BZ/ds_sisuo.png",
+				"data": "::(sisuo)",
+				"text": "sisuo"
+			},
+			{
+				"icon": "emoji/BZ/ds_ttlike.png",
+				"data": "::(ttlike)",
+				"text": "ttlike"
+			},
+			{
+				"icon": "emoji/BZ/ds_wuyu.png",
+				"data": "::(wuyu)",
+				"text": "wuyu"
+			},
+			{
+				"icon": "emoji/BZ/ds_xf.png",
+				"data": "::(xf)",
+				"text": "xf"
+			},
+			{
+				"icon": "emoji/BZ/ds_xiao.png",
+				"data": "::(xiao)",
+				"text": "xiao"
+			},
+			{
+				"icon": "emoji/BZ/ds_zan.png",
+				"data": "::(zan)",
+				"text": "zan"
+			},
+			{
+				"icon": "emoji/BZ/re_awsl.png",
+				"data": "::(awsl)",
+				"text": "awsl"
+			},
+			{
+				"icon": "emoji/BZ/re_bksn.png",
+				"data": "::(bksn)",
+				"text": "bksn"
+			},
+			{
+				"icon": "emoji/BZ/re_cb.png",
+				"data": "::(cb)",
+				"text": "cb"
+			},
+			{
+				"icon": "emoji/BZ/re_chui.png",
+				"data": "::(chui)",
+				"text": "chui"
+			},
+			{
+				"icon": "emoji/BZ/re_daka.png",
+				"data": "::(daka)",
+				"text": "daka"
+			},
+			{
+				"icon": "emoji/BZ/re_gaochan.png",
+				"data": "::(gaochan)",
+				"text": "gaochan"
+			},
+			{
+				"icon": "emoji/BZ/re_hai.png",
+				"data": "::(hai)",
+				"text": "hai"
+			},
+			{
+				"icon": "emoji/BZ/re_keyi.png",
+				"data": "::(keyi)",
+				"text": "keyi"
+			},
+			{
+				"icon": "emoji/BZ/re_miao.png",
+				"data": "::(miao)",
+				"text": "miao"
+			},
+			{
+				"icon": "emoji/BZ/re_mnbk.png",
+				"data": "::(mnbk)",
+				"text": "mnbk"
+			},
+			{
+				"icon": "emoji/BZ/re_nxp.png",
+				"data": "::(nxp)",
+				"text": "nxp"
+			},
+			{
+				"icon": "emoji/BZ/re_olg.png",
+				"data": "::(olg)",
+				"text": "olg"
+			},
+			{
+				"icon": "emoji/BZ/re_qgzs.png",
+				"data": "::(qgzs)",
+				"text": "qgzs"
+			},
+			{
+				"icon": "emoji/BZ/re_suan.png",
+				"data": "::(suan)",
+				"text": "suan"
+			},
+			{
+				"icon": "emoji/BZ/re_wkl.png",
+				"data": "::(wkl)",
+				"text": "wkl"
+			},
+			{
+				"icon": "emoji/BZ/re_wtnl.png",
+				"data": "::(wtnl)",
+				"text": "wtnl"
+			},
+			{
+				"icon": "emoji/BZ/re_xiu.png",
+				"data": "::(xiu)",
+				"text": "xiu"
+			},
+			{
+				"icon": "emoji/BZ/re_ynwl.png",
+				"data": "::(ynwl)",
+				"text": "ynwl"
+			},
+			{
+				"icon": "emoji/BZ/re_zsmq.png",
+				"data": "::(zsmq)",
+				"text": "zsmq"
+			},
+			{
+				"icon": "emoji/BZ/re_zxa.png",
+				"data": "::(zxa)",
+				"text": "zxa"
+			},
+	 
+
+		]
     }
 }
