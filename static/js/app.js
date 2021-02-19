@@ -571,7 +571,6 @@ const Cuteen = {
                 document.documentElement.style.setProperty('--bs-light', '#121212');
                 document.documentElement.style.setProperty('--bs-dark', 'rgba(255, 255, 255, 0.8)');
                 document.documentElement.classList.add('dark-mode');
-                console.log('夜间模式开启');
                 return '';
             } else {
                 svg.setAttribute('xlink:href', '#moon');
@@ -579,7 +578,6 @@ const Cuteen = {
                 document.documentElement.style.removeProperty('--bs-light');
                 document.documentElement.style.removeProperty('--bs-dark');
                 document.documentElement.classList.remove('dark-mode');
-                console.log('夜间模式关闭');
                 return '';
             }
         } else {
